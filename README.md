@@ -1,75 +1,45 @@
-# React + TypeScript + Vite
+# 🏔️ vibeNepal: Nepal Uncovered
+<img width="1907" height="920" alt="Home" src="https://github.com/user-attachments/assets/03b21892-be84-48a8-bddc-2161bff967b8" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**vibeNepal** is a modern and explorative travel and culture website designed to showcase the beauty, culture, heritage, and landscapes of Nepal. From the Himalayas and ancient temples to local traditions and destinations, the website provides an engaging way to discover and explore Nepal.
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🗻 **Explore Nepal** - Discover Nepal's diverse landscapes, iconic destinations, mountains, cities, and natural beauty.
+* 🛕 **Culture & Heritage** - Learn about Nepal's rich traditions, festivals, architecture, heritage sites, and cultural identity.
+* 🗺️ **Travel Destinations** - Explore popular destinations and discover places worth visiting across Nepal.
+* 🍛 **Nepali Cuisine** - Experience Nepal through its traditional foods, local flavors, and culinary culture.
+* 📸 **Visual Showcase** - Stunning visuals and carefully designed sections bring Nepal's landscapes and culture to life.
+* 📱 **Responsive Design** - Provides a seamless experience across desktop, tablet, and mobile devices.
+* ✨ **Modern UI** - A clean, elegant, and immersive interface inspired by Nepal's natural and cultural character.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* **Frontend:** HTML, CSS, TypeScript, React.js, Vite, Tailwind CSS
+* **Code Editor:** Visual Studio Code
+* **Version Control:** Git & GitHub
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📱 How It Works
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+1. User opens the vibeNepal: Nepal Uncovered website.
+2. User explores Nepal’s destinations, landscapes, culture, heritage, festivals, cuisine, and adventures.
+3. User discovers Nepal’s traditions, people, food, wildlife, and unique experiences through carefully designed sections.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🎯 Objective
 
-```
+The objective of **vibeNepal: Nepal Uncovered** is to create an engaging digital experience that introduces visitors to Nepal's diverse landscapes, rich heritage, vibrant culture, and unique travel experiences.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🔮 Future Enhancements
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+* 📍 Detailed Destination Guides
+* 🌐 Multi-language support
+* 🎒 Travel Planning Tools
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 📧 Contact
+For questions or feedback, please open an issue on GitHub.
 
-```
+------
+
+⭐ If you found this project helpful, please consider giving it a star!
