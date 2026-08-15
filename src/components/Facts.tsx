@@ -2,10 +2,10 @@ import { useReveal } from '../hooks/useReveal'
 
 const stats = [
   { value: '8,849 m', label: 'Mount Everest', detail: 'Highest point on Earth' },
-  { value: '126+', label: 'Ethnic Groups', detail: 'Over 100 spoken languages' },
-  { value: '7', label: 'UNESCO Sites', detail: 'World Heritage monuments' },
-  { value: '80%', label: 'Hindu Population', detail: 'Largest Hindu nation by %' },
-  { value: '29M', label: 'Population', detail: 'People across 77 districts' },
+  { value: '125+', label: 'Ethnic Groups', detail: 'Over 100 spoken languages' },
+  { value: '8+', label: 'UNESCO Sites', detail: 'World Heritage monuments' },
+  { value: '81%', label: 'Hindu Population', detail: 'Largest Hindu nation by %' },
+  { value: '29M+', label: 'Population', detail: 'People across 77 districts' },
   { value: 'UTC+5:45', label: 'Time Zone', detail: 'One of only 3 in the world with :45' },
 ]
 
@@ -41,11 +41,11 @@ export default function Facts() {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0' }}>
               {[
                 { q: 'Government', a: 'Federal Democratic Republic since 2008, ending 240 years of Shah dynasty rule.' },
-                { q: 'Currency', a: 'Nepalese Rupee (NPR). 1 USD ≈ 134 NPR as of 2024.' },
-                { q: 'Climate Zones', a: '5 zones — from tropical Terai to arctic alpine — all within 200 km north–south.' },
+                { q: 'Currency', a: 'Nepalese Rupee (NPR). 1 USD ≈ 152 NPR as of 2026.' },
+                { q: 'Climate Zones', a: '5 zones, from warm Terai plains to high Himalayan landscapes, all within 200 km north to south.' },
                 { q: 'Best Time to Visit', a: 'October–November (post-monsoon) and March–May (pre-monsoon rhododendron bloom).' },
-                { q: 'National Animal', a: 'The Cow — sacred and legally protected throughout the country.' },
-                { q: 'National Flower', a: 'Rhododendron (Lali Gurans) — blazes red across Himalayan hillsides every spring.' },
+                { q: 'National Animal', a: 'The Cow, sacred and legally protected throughout the country.' },
+                { q: 'National Flower', a: 'Rhododendron (Lali Gurans), blooms across Himalayan hillsides every spring.' },
               ].map((item, i) => (
                 <div key={item.q} style={{
                   padding: '1.25rem 1.5rem',

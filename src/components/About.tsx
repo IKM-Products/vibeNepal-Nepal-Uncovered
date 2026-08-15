@@ -7,15 +7,15 @@ export default function About() {
       <div style={{ maxWidth: 1280, margin: '0 auto' }}>
         <div ref={ref} className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '6rem', alignItems: 'center' }}>
           <div>
-            <span className="section-label">About the Country</span>
+            <span className="section-label">About Nepal</span>
             <span className="gold-line" />
             <h2 className="font-serif" style={{ fontSize: 'clamp(2.5rem, 4vw, 3.75rem)', lineHeight: 1.08, marginBottom: '2rem', color: '#1a1410' }}>
-              A Nation Carved<br />by Gods & Mountains
+              A Nation Written<br />in the Himalayas
             </h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem', fontSize: '1.0125rem', lineHeight: 1.8, color: '#4a3f36', fontWeight: 400 }}>
-              <p>Nepal is a landlocked sovereign republic between China and India, occupying the central Himalayas. It holds eight of the world's ten highest peaks — including Everest, Kanchenjunga, Lhotse, Makalu, Cho Oyu, Dhaulagiri, Manaslu, and Annapurna.</p>
-              <p>From the steaming Terai jungle at 60 metres to arctic summits above 8,000 metres, Nepal compresses an entire planet's worth of ecology into a country the size of Arkansas. The vertical drop is unlike anywhere else on Earth.</p>
-              <p>Once the world's only Hindu kingdom, Nepal became a federal democratic republic in 2008, ending 240 years of Shah dynasty rule. Yet Buddhism, Animism, and dozens of folk traditions interweave with Hinduism in a syncretic culture scholars travel lifetimes to map.</p>
+              <p style={{ textAlign: 'justify' }}>Nepal is a landlocked sovereign nation between China and India, occupying the central Himalayas. It holds eight of the world's ten highest peaks including Everest, Kangchenjunga, Lhotse, Makalu, Cho Oyu, Dhaulagiri, Manaslu, and Annapurna.</p>
+              <p style={{ textAlign: 'justify' }}>From the hot and humid Terai jungle at 59 metres to glacial peaks above 8,000 metres, Nepal is home to a variety of ecosystems, all within a fairly small area. Its dramatic change in elevation makes it truly unique.</p>
+              <p style={{ textAlign: 'justify' }}>Once the world's only Hindu kingdom, Nepal became a federal democratic republic in 2008, ending 240 years of Shah dynasty rule. Yet Buddhism, and diverse traditional beliefs come together to create Nepal’s rich and vibrant culture.</p>
             </div>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>

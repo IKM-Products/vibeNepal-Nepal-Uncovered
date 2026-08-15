@@ -8,7 +8,7 @@ const placesData = [
     region: 'Khumbu, Sagarmatha Zone',
     altitude: '5,364 m',
     category: 'High Altitude Trek',
-    desc: 'The most iconic trek on Earth. Fourteen days through Sherpa villages, glacial moraines, and rhododendron forests to stand at the foot of the world\'s highest summit.',
+    desc: 'The most iconic trek on Earth. Fourteen days through Sherpa villages, rugged mountain trails, and rhododendron forests to stand at the foot of the world\'s highest summit.',
     img: 'https://images.unsplash.com/photo-1697746149225-63a33bcb2ea4?w=900&h=600&fit=crop&auto=format',
     icon: <IconMountain />,
   },
@@ -18,7 +18,7 @@ const placesData = [
     region: 'Gandaki Province',
     altitude: '822 m',
     category: 'Adventure Capital',
-    desc: 'Nepal\'s adventure capital. Paraglide above Phewa Lake while the Annapurna massif reflects in still water. A city where rivers, mountains, and sky converge.',
+    desc: 'Nepal\'s adventure capital. Paraglide above Phewa Lake while the Annapurna range reflects in still water. A city where rivers, mountains, and sky converge.',
     img: 'https://images.unsplash.com/photo-1735533441842-33c5e47b22ae?w=900&h=600&fit=crop&auto=format',
     icon: <IconWaves />,
   },
@@ -28,7 +28,7 @@ const placesData = [
     region: 'Bagmati Province',
     altitude: '1,400 m',
     category: 'UNESCO Heritage',
-    desc: 'Seven monument zones, each a UNESCO World Heritage site. Pashupatinath, Boudhanath, Swayambhunath — ancient temples woven into a living city.',
+    desc: 'Seven UNESCO World Heritage site. From Pashupatinath to Boudhanath and Swayambhunath, ancient heritage lives on at the heart of Kathmandu.',
     img: 'https://images.unsplash.com/photo-1529733905113-027ed85d7e33?w=900&h=600&fit=crop&auto=format',
     icon: <IconCamera />,
   },
@@ -36,10 +36,10 @@ const placesData = [
     num: '04',
     name: 'Chitwan National Park',
     region: 'Terai Lowlands',
-    altitude: '100–800 m',
+    altitude: '100–815 m',
     category: 'Wildlife Safari',
-    desc: 'One-horned rhinos, Bengal tigers, and Gangetic dolphins in Nepal\'s premier jungle reserve. Canoe the Rapti River at dusk among wild elephants.',
-    img: 'https://images.unsplash.com/photo-1580424917967-a8867a6e676e?w=900&h=600&fit=crop&auto=format',
+    desc: 'One-horned rhinos, Bengal tigers, and River dolphins in Nepal\'s renowned jungle reserve. Paddle the Rapti River at sunset among wild elephants.',
+    img: 'https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=900&h=600&fit=crop&auto=format',
     icon: <IconLeaf />,
   },
   {
@@ -48,7 +48,7 @@ const placesData = [
     region: 'Manang & Mustang',
     altitude: 'Up to 5,416 m',
     category: 'Classic Trek',
-    desc: 'A 160-km arc from subtropical jungle to Tibetan plateau. Crossing Thorong La pass, every hour is a different climate, culture, and altitude.',
+    desc: 'A 160-km journey from dense jungle to Tibetan plateau. Crossing Thorong La pass, every hour is a different climate, culture, and altitude.',
     img: 'https://images.unsplash.com/photo-1553886334-43d24f24d3bd?w=900&h=600&fit=crop&auto=format',
     icon: <IconCompass />,
   },
@@ -56,10 +56,10 @@ const placesData = [
     num: '06',
     name: 'Lumbini',
     region: 'Rupandehi District',
-    altitude: '100 m',
+    altitude: '150 m',
     category: 'Sacred Birthplace',
-    desc: 'Where Siddhartha Gautama — the Buddha — was born in 563 BCE. The Maya Devi Temple and an eternal flame mark the exact spot. Pilgrims arrive from every continent.',
-    img: 'https://images.unsplash.com/photo-1507743617593-0a422c9bb7f5?w=900&h=600&fit=crop&auto=format',
+    desc: 'Where Siddhartha Gautama, the Buddha, was born in 563 BCE. The Maya Devi Temple stands as a symbol of this historic birthplace. Visitors arrive from every corner of the world.',
+    img: 'https://images.unsplash.com/photo-1614939188731-79bbf44e18ef?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     icon: <IconStar />,
   },
 ]
@@ -93,11 +93,11 @@ export default function Places() {
             <span style={{ fontSize: '0.6875rem', fontWeight: 700, letterSpacing: '0.25em', textTransform: 'uppercase', color: '#c8a96e' }}>Best Places to Visit</span>
             <span className="gold-line" />
             <h2 className="font-serif" style={{ fontSize: 'clamp(2.25rem, 4vw, 3.5rem)', lineHeight: 1.08, color: '#f5f0e8' }}>
-              Six Worlds<br />Within One Kingdom
+              Six Worlds<br />Within One Nation
             </h2>
           </div>
-          <p style={{ maxWidth: 340, fontSize: '0.9375rem', lineHeight: 1.7, color: 'rgba(245,240,232,0.55)', fontWeight: 400 }}>
-            From the highest point on Earth to ancient temple cities and dense safari jungle — Nepal contains multitudes.
+          <p style={{ maxWidth: 340, fontSize: '0.9375rem', lineHeight: 1.7, color: 'rgba(245,240,232,0.55)', fontWeight: 400, textAlign: 'justify' }}>
+            From the highest point on Earth to ancient temple cities and dense safari jungle, Nepal offers an extraordinary world of landscapes, cultures, and experiences.
           </p>
         </div>
 

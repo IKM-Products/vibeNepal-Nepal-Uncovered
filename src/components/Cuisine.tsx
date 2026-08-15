@@ -1,9 +1,9 @@
 import { useReveal } from '../hooks/useReveal'
 
 const foods = [
-  { name: 'Dal Bhat', sub: 'The National Dish', desc: 'Lentil soup with steamed rice, seasonal vegetables, achaar pickle, and often goat curry. Eaten twice daily by most Nepalis — the fuel of the Himalayas.', img: 'https://images.unsplash.com/photo-1552353338-0944fa7abdcd?w=500&h=360&fit=crop&auto=format' },
-  { name: 'Momo', sub: 'Street Soul Food', desc: 'Steamed or fried dumplings filled with buff, pork, or vegetables, served with fiery sesame-tomato achar. Nepal\'s most beloved street food by a landslide.', img: 'https://images.unsplash.com/photo-1577398867427-405a8b8ab740?w=500&h=360&fit=crop&auto=format' },
-  { name: 'Thukpa', sub: 'High-Altitude Warmth', desc: 'A Tibetan noodle broth loaded with vegetables or yak meat, spiced with ginger and chili. The defining dish of teahouse culture on mountain trails.', img: 'https://images.unsplash.com/photo-1511215579272-6192432f83bc?w=500&h=360&fit=crop&auto=format' },
+  { name: 'Dal Bhat', sub: 'The National Dish', desc: 'Lentil soup with steamed rice, seasonal vegetables, achaar pickle, and often goat curry. Eaten twice daily by most Nepalis, the fuel of the Himalayas.', img: 'https://images.unsplash.com/photo-1756821753226-c0fc88056cf7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+  { name: 'Momo', sub: 'Street Soul Food', desc: 'Steamed or fried dumplings filled with buff, pork, or vegetables, served with spicy sesame-tomato achar. Nepal\'s most beloved street food by a landslide.', img: 'https://images.unsplash.com/photo-1565311456123-0c9ace220ee2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D' },
+  { name: 'Thukpa', sub: 'High-Altitude Warmth', desc: 'A Tibetan noodle broth loaded with vegetables or yak meat, spiced with ginger and chili. The defining dish of teahouse culture on mountain trails.', img: 'https://images.unsplash.com/photo-1628410040883-c412c8d9a0f9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGh1a3BhfGVufDB8fDB8fHww' },
 ]
 
 export default function Cuisine() {
@@ -17,11 +17,11 @@ export default function Cuisine() {
               <span className="section-label">Nepali Cuisine</span>
               <span className="gold-line" />
               <h2 className="font-serif" style={{ fontSize: 'clamp(2rem, 3vw, 3rem)', lineHeight: 1.1, color: '#1a1410', marginBottom: '1.25rem' }}>
-                Eat the<br />Mountains.<br />
+                Flavors of<br />the Mountains.<br />
                 <em style={{ color: '#c8a96e' }}>Taste the Valleys.</em>
               </h2>
-              <p style={{ fontSize: '0.9375rem', lineHeight: 1.75, color: '#6b5d52', fontWeight: 400 }}>
-                Nepali cuisine reflects its geography — the spice trade of the Terai, the hearty mountain provisions of the Khumbu, and the Tibetan influence of high-altitude culture.
+              <p style={{ fontSize: '0.9375rem', lineHeight: 1.75, color: '#6b5d52', fontWeight: 400, textAlign: 'justify'}}>
+                Nepali cuisine reflects its geography. It draws from the spice trade of the Terai, the hearty mountain dishes of the Khumbu, and the Tibetan influence of high-altitude communities.
               </p>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
