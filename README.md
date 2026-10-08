@@ -17,7 +17,7 @@
 
 ## 🛠️ Technologies Used
 
-* **Frontend:** HTML, CSS, TypeScript, React.js, Vite, Tailwind CSS
+* **Frontend:** HTML, CSS, TypeScript, React.js, Vite
 * **Code Editor:** Visual Studio Code
 * **Version Control:** Git & GitHub
 

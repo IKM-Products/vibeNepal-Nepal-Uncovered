@@ -111,7 +111,7 @@ export function Hero() {
           }}>
             Eight of the world’s ten highest peaks. Thousands of years of history. A nation shaped by countless cultures and traditions. Nepal does not whisper. It roars.
           </p>
-          <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', animation: 'fadeUp 0.8s ease 0.8s both' }}>
+          <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', animation: 'fadeUp 0.8s ease 0.8s both',  marginBottom: '1rem' }}>
             <a href="#places" className="btn-primary">Explore Nepal</a>
             <a href="#about" className="btn-outline" style={{ color: '#f5f0e8', borderColor: 'rgba(245,240,232,0.4)' }}>Our Story</a>
           </div>
